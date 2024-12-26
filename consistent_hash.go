@@ -4,6 +4,7 @@ import (
 	"hash/fnv"
 	"sort"
 	"sync"
+	"fmt"
 )
 
 type ConsistentHash struct {
